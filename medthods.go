@@ -27,7 +27,7 @@ func main() {
 	fmt.Println("perim:", r.perim())
 
 	// Go automatically handle conversion between value and pointers
-	// for method call. You may want to use a pointer receiver type to avoid copyting
+	// for method call. You may want to use a pointer receiver type to avoid copying
 	// on method call or to allow the method to mutate the receiving struct.
 	rp := &r
 	fmt.Println("area:", rp.area())
